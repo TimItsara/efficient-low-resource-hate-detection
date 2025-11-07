@@ -1,0 +1,13 @@
+{
+  "train_file": "0_data/main/1_clean/dyn21_en/train/train_20000_rs6.csv",
+  "validation_file": "0_data/main/1_clean/dyn21_en/dev_500.csv",
+  "test_file": "0_data/main/1_clean/dyn21_en/test_2000.csv",
+  "model_name_or_path": "xlm-roberta-base",
+  "output_dir": "./results/english_finetuning_rs6",
+  "do_train": true,
+  "do_eval": true,
+  "do_predict": true,
+  "num_train_epochs": 3,
+  "learning_rate": 5e-5,
+  "per_device_train_batch_size": 16
+}
